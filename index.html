@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+        <title>画像落書き用ツール</title>
+
+        <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        
+        <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js" type="text/javascript"></script>
+        <script src="bower_components/angular/angular.min.js" type="text/javascript"></script>
+
+        <script src="bower_components/angular-strap/dist/angular-strap.min.js" type="text/javascript"></script>
+
+        <script src="bower_components/two/build/two.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <script src="scripts/index.js"></script>
+
+        <div ng-app='myApp' ng-controller='myCtrl'>
+            <div>
+                <canvas id='canvas' ng-mousedown='canvasMouseDown($event)' ng-mouseup='canvasMouseUp($event)' ng-mousemove="canvasMouseMove($event)"></canvas>
+                <img id="img" ng-src="./image/2352334045_606b1c56a2_o.jpg" alt="">
+            </div>
+        </div>
+    </body>
+</html>

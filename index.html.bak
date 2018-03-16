@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+
+		<title>画像落書き用ツール</title>
+
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+		<script src="node_modules/angular/angular.min.js"></script>
+		<script src="node_modules/angular-strap/dist/angular-strap.min.js"></script>
+		<script src="node_modules/angular-strap/dist/angular-strap.tpl.min.js"></script>
+		<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	</head>
+	<body>
+		
+	</body>
+</html>

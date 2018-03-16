@@ -1,0 +1,27 @@
+{
+  "name": "a",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "a"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {"two.js": "0.6.0",
+    "angular": "*",
+    "angular-strap": "*",
+    "angular-drawingboard": "*",
+    "bootstrap": "*",
+    "jquery": "*",
+    "drawingboard.js": "0.4.6",
+    "phina.js": "0.2.0",
+    "two": "two.js#0.6.0"
+  }
+}
